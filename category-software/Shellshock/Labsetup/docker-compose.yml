@@ -9,6 +9,8 @@ services:
         networks:
             net-10.9.0.0:
                 ipv4_address: 10.9.0.5
+        volumes:
+          - /media/sf_seed-labs/category-software/Shellshock/solution/all:/solution
                   
 
 networks:
